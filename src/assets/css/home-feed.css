@@ -1,0 +1,564 @@
+.home-feed-content {
+  margin: 40px 50px;
+}
+.mynotes-feed-content {
+  margin: 20px 50px;
+}
+.left-action {
+  position: absolute;
+  left: -60px;
+  top: 45%;
+}
+.left-action {
+  position: absolute;
+  left: -60px;
+  top: 45%;
+}
+.right-action {
+  position: absolute;
+  right: -60px;
+  top: 45%;
+}
+.action-icon {
+  width: 41px;
+  height: 41px;
+  border-radius: 90px;
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel-container {
+  font-size: 12px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8.5px;
+  width: 35px;
+  height: 17px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  z-index: 1;
+}
+.carousel-image-container {
+  height: 100%;
+  min-height: 100%;
+  cursor: pointer;
+  border: 11px solid white;
+  box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+}
+.carousel-image {
+  width: 100%;
+}
+.feed-cards {
+  width: 100%;
+  margin: 25px auto;
+  box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+  max-width: 680px;
+  max-height: 680px;
+}
+.feed-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.feed-card-inner-content {
+  flex: 1;
+}
+.feed-card-avatar {
+  float: left;
+  background: #e4e5e7;
+  padding: 0px;
+  border-radius: 90px;
+  margin-right: 20px;
+}
+.feed-card-title {
+  color: #0b649d;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+.right-arrow-icon {
+  color: #0b649d;
+  font-size: 14px;
+  padding: 0px 5px;
+  font-weight: 900;
+}
+.feed-card-publish {
+  color: #c4c4c4;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.feed-card-body {
+  cursor: pointer;
+}
+.ebook-cover-image-container {
+  position: absolute;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  left: 0;
+  width: fit-content;
+}
+.ebook-cover-image {
+  width: 100%;
+  border-radius: 0px;
+  min-height: 420px;
+  height: 420px;
+  object-fit: cover;
+  padding: 10px;
+  filter: blur(14px);
+}
+.ebook-image {
+  width: 280px;
+  border-radius: 0px;
+  min-height: 420px;
+  height: 420px;
+  object-fit: unset;
+}
+.video-iframe {
+  margin: 0;
+  width: 100%;
+  height: 420px;
+  border-radius: 0px;
+}
+.video-iframe-overlay {
+  height: 420px;
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  top: 0;
+  cursor: pointer;
+}
+.my-notest .start-quiz-content,
+.start-quiz-content {
+  height: 365px;
+  background: rgba(90, 114, 200, 0.04);
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.my-notest .solution-quiz-content,
+.solution-quiz-content {
+  background: rgba(90, 114, 200, 0.04);
+  height: 365px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f4f8ec;
+}
+.my-notest .resume-quiz-content,
+.resume-quiz-content {
+  background: rgba(90, 114, 200, 0.04);
+  height: 365px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fffbe6;
+}
+.quiz-start-text {
+  padding: 15px 0px;
+  color: #0b649d;
+}
+.quiz-solution-text {
+  padding: 15px 0px;
+  color: #46760a;
+}
+.quiz-resume-text {
+  padding: 15px 0px;
+  color: #ffa500;
+}
+.solution-quiz-button {
+  background: #46760a;
+  color: #fff;
+  height: 40px;
+  width: 150px;
+  border-radius: 4px;
+  margin: 0px 10px;
+  font-weight: 900;
+  border-color: #46760a;
+}
+.solution-quiz-button:hover {
+  background: #46760a;
+  color: #fff !important;
+  border-color: #46760a !important;
+  cursor: pointer;
+}
+.start-quiz-button {
+  width: 180px;
+  height: 40px;
+  border-radius: 4px;
+  background: #0b649d;
+  border-color: #0b649d;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 900;
+}
+.start-quiz-button:hover {
+  color: #40a9ff !important;
+  background: #fff;
+  border-color: #40a9ff !important;
+  cursor: pointer;
+}
+.resume-quiz-button {
+  width: 180px;
+  height: 40px;
+  border-radius: 4px;
+  background: #ffa500;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 900;
+}
+.resume-quiz-button:hover {
+  color: #40a9ff !important;
+  background: #fff;
+  border-color: #40a9ff !important;
+  cursor: pointer;
+}
+.article-feed-image {
+  width: 100%;
+}
+.feed-cards .ant-card-bordered .ant-card-cover {
+  min-height: 365px;
+  height: 100%;
+}
+
+.feed-card-cover-content {
+  margin: 20px;
+}
+.feed-card-cover-inner-content {
+  color: #0b649d;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.feed-card-action-values {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+.feed-card-action-columns {
+  font-size: 16px;
+  color: #334d6e;
+}
+.feed-card-action-text {
+  color: #334d6e;
+  font-weight: bold;
+  font-style: normal;
+}
+.feed-card-divider {
+  padding: 0px;
+}
+.feed-card-footer-content {
+  margin: 20px;
+}
+.feed-card-footer-inner-content {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.feed-card-footer-icon-container {
+  color: #0b649d;
+  cursor: pointer;
+}
+.feed-card-footer-like-icon {
+  padding-right: 10px;
+  width: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.feed-card-footer-comment-icon {
+  padding-right: 10px;
+  width: 35px;
+  cursor: pointer;
+}
+.feed-card-footer-share-icon {
+  padding-right: 10px;
+  width: 27px;
+  cursor: pointer;
+}
+.feed-ads-container {
+  background: linear-gradient(180deg, #e0f3ff 0%, #e0f3ff 100%);
+  padding: 30px 10px;
+}
+.feed-ads-inner-content {
+  text-align: center;
+  padding: 10px 0px;
+}
+.feed-playstore-icon-1 {
+  width: 30px;
+}
+.feed-google-pay-button {
+  color: #0b649d;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 1px solid #0b649d;
+  width: 163px;
+  height: 40px;
+  padding: 8px 15px;
+}
+.feed-ads-text-content {
+  text-align: center;
+  padding: 10px 0px;
+}
+.feed-ads-link {
+  color: #0b649d;
+  font-size: 12px;
+}
+.feed-playstore-icon-2 {
+  width: 30px;
+}
+.feed-ads-google-play-button {
+  height: 45px;
+  width: 210px;
+  border-radius: 18px;
+  background: #0b649d;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+}
+.feed-ads-box {
+  margin-top: 25px;
+}
+.feed-ads-image {
+  width: 100%;
+}
+.feed-ads-list-content {
+  margin-top: 25px;
+  border-top: 5px solid #0b649d;
+}
+.feed-ads-list {
+  background: #fff;
+}
+.feed-ads-list-icon {
+  color: #0b649d;
+}
+.feed-ads-list-title {
+  margin-left: 20px;
+  color: #0b649d;
+}
+.feed-ads-spinner {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.show-more-container {
+  margin-top: 30px;
+  text-align: center;
+}
+.show-more-icon {
+  cursor: pointer;
+  font-weight: bold;
+  color: #0b649d;
+  font-size: 18px;
+}
+.feed-main-section {
+  margin: 0px 60px;
+  min-height: auto;
+  position: relative;
+}
+.feed-section {
+  width: 60%;
+  margin: auto;
+}
+.announc-list {
+  list-style: none;
+}
+.feed-announcement {
+  margin: auto;
+}
+.announc-cards {
+  margin: 15px 59px;
+  box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+  max-width: 1519px;
+  max-height: 680px;
+  padding: 20px;
+}
+.feeds-card-quiz-image {
+  width: 100%;
+  height: 100%;
+}
+.feed-ads-block {
+  padding: 0px !important;
+}
+
+@media (max-width: 1440px) {
+  .feed-section {
+    width: 83%;
+  }
+  .announc-list {
+    list-style: "none";
+  }
+  .feed-announcement {
+    width: 85%;
+  }
+  .announc-cards {
+    width: 100%;
+    margin: 15px auto;
+    box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+    max-width: 1030px;
+    max-height: 680px;
+    padding: 20px;
+  }
+  .my-notest .start-quiz-content,
+  .start-quiz-content {
+    padding: 50px 0px;
+    height: auto;
+  }
+  .my-notest .resume-quiz-content,
+  .resume-quiz-content {
+    padding: 60px 0px;
+    height: auto;
+  }
+  .feed-ads-google-play-button {
+    width: 160px;
+  }
+  .ebook-cover-image {
+    width: 100%;
+    border-radius: 0px;
+    min-height: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+    filter: blur(14px);
+  }
+  .ebook-image {
+    width: 220px;
+    border-radius: 0px;
+    min-height: 300px;
+    height: 300px;
+    object-fit: unset;
+  }
+}
+
+@media (max-width: 1199px) {
+  .feed-section {
+    width: 81%;
+  }
+  .feed-announcement {
+    width: 83%;
+    padding: 8px;
+  }
+  .announc-cards {
+    width: 100%;
+    margin: 15px auto;
+    box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+    max-width: 1030px;
+    max-height: 680px;
+    padding: 20px;
+  }
+  .announc-list {
+    list-style: none;
+  }
+  .feed-ads-block {
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .feed-ads-block {
+    display: none;
+  }
+  .feed-main-section {
+    margin: 0px 40px;
+    padding: 20px;
+    min-height: auto;
+    height: auto;
+  }
+  .announc-list {
+    list-style: none;
+  }
+  .feed-announcement {
+    width: 80%;
+  }
+  .announc-cards {
+    width: 100%;
+    margin: 15px auto;
+    box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+    max-width: 1030px;
+    max-height: 680px;
+    padding: 20px;
+  }
+  .start-quiz-content {
+    padding: 30px 0px;
+  }
+  .carousel-container {
+    right: 40px;
+    top: 40px;
+  }
+  .home-feed-content-column-1 {
+    padding: 10px;
+  }
+  .left-action {
+    left: -40px;
+  }
+  .right-action {
+    right: -40px;
+  }
+  .ebook-cover-image {
+    width: 100%;
+    border-radius: 0px;
+    min-height: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 10px;
+    filter: blur(14px);
+  }
+  .ebook-image {
+    width: 180px;
+    border-radius: 0px;
+    min-height: 250px;
+    height: 250px;
+    object-fit: unset;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-feed-content-column-1 {
+    padding: 0px 0px !important;
+  }
+  .feed-main-section {
+    margin: 0px 0px;
+  }
+  .carousel-actions-container {
+    display: none;
+  }
+  .feed-announcement {
+    width: 96%;
+  }
+  .announc-cards {
+    width: 100%;
+    margin: 15px auto;
+    box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+    max-width: 1030px;
+    max-height: 680px;
+    padding: 20px;
+  }
+  .announc-list {
+    list-style: none;
+  }
+  .feed-cards {
+    margin: 10px 0px;
+  }
+}

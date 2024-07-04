@@ -1,0 +1,1586 @@
+@media (min-width: 320px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 265px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: justify;
+    margin: 0;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 5px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 20px;
+    font-size: 18px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 5px 10px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1 !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 46px;
+    color: #fff;
+    width: 170px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 8px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px;
+  }
+  .doubts-cover-image {
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px !important;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .ant-tabs-top > .ant-tabs-nav,
+  .ant-tabs-bottom > .ant-tabs-nav,
+  .ant-tabs-top > div > .ant-tabs-nav,
+  .ant-tabs-bottom > div > .ant-tabs-nav {
+    margin: 0 0 0px 0;
+  }
+  .doubts-card-discubtion {
+    padding: 20px 0px 0px 20px;
+  }
+  .doubts-tabs-nagation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    top: 7px;
+    background: #fff;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: flex-start;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 375px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 320px;
+    z-index: -1;
+  }
+  .Create-doubts-popup {
+    width: 1000px;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 5px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 0px 0px 20px;
+    font-size: 18px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 5px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 46px;
+    color: #fff;
+    width: 170px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 10px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 20px 20px 25px;
+  }
+  .doubts-cover-image {
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px !important;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .ant-tabs-top > .ant-tabs-nav,
+  .ant-tabs-bottom > .ant-tabs-nav,
+  .ant-tabs-top > div > .ant-tabs-nav,
+  .ant-tabs-bottom > div > .ant-tabs-nav {
+    margin: 0 0 0px 0;
+  }
+  .doubts-card-discubtion {
+    padding: 30px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    top: 7px;
+    background: #fff;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: flex-start;
+    padding: 0px 0px;
+  }
+}
+
+@media (min-width: 425px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 361px;
+    z-index: -1;
+  }
+  .Create-doubts-popup {
+    width: 1000px;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 3px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 10px 0px 5px;
+    font-size: 18px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 3px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 5px 3px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    width: 77px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 2px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 30px;
+  }
+  .doubts-cover-image {
+    width: 40%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px !important;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .ant-tabs-top > .ant-tabs-nav,
+  .ant-tabs-bottom > .ant-tabs-nav,
+  .ant-tabs-top > div > .ant-tabs-nav,
+  .ant-tabs-bottom > div > .ant-tabs-nav {
+    margin: 0 0 0px 0;
+  }
+  .doubts-card-discubtion {
+    padding: 30px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    top: 7px;
+    background: #fff;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: flex-start;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 641px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 975px;
+    z-index: -1;
+  }
+  .Create-doubts-popup {
+    width: 1000px;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 10px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 1x;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 0px 20px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 0px 20px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 46px;
+    color: #fff;
+    width: 117px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .doubts-card-action-columns {
+    font-size: 10px;
+    color: #334d6e;
+    padding: 4px 2px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px;
+  }
+  .doubts-cover-image {
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px !important;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .ant-tabs-top > .ant-tabs-nav,
+  .ant-tabs-bottom > .ant-tabs-nav,
+  .ant-tabs-top > div > .ant-tabs-nav,
+  .ant-tabs-bottom > div > .ant-tabs-nav {
+    margin: 0 0 20px 0;
+  }
+  .doubts-card-discubtion {
+    padding: 24px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+    top: 7px;
+    background: #fff;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: flex-start;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 690px;
+    z-index: -1;
+  }
+  .Create-doubts-popup {
+    width: 1000px;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px 0px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 30px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 7px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 20px;
+    font-size: 17px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 14px 14px 15px -9px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 15px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 18px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 46px;
+    color: #fff;
+    width: 170px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 13px;
+    color: #334d6e;
+    padding: 0px 9px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 20px 20px 30px;
+  }
+  .doubts-cover-image {
+    width: 65%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px !important;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion {
+    padding: 18px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: flex-start;
+    padding: 0px 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .doubts-card-action-columns {
+    font-size: 13px;
+    color: #334d6e;
+    padding: 0px 7px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 20px;
+  }
+}
+
+@media (min-width: 961px) {
+  .ant-tabs-top > .ant-tabs-nav,
+  .ant-tabs-bottom > .ant-tabs-nav,
+  .ant-tabs-top > div > .ant-tabs-nav,
+  .ant-tabs-bottom > div > .ant-tabs-nav {
+    margin: 0 0 20px 0;
+  }
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 975px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 32px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 14px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 5px 20px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .doubts-card-discubtion {
+    padding: 30px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 25px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 12px 0px 0px 755px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 15px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 6px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 8px;
+    font-size: 16px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 15px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 15px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 15px 30px;
+  }
+  .doubts-cover-image {
+    width: 50%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px !important;
+  }
+  .doubts-card-discubtion {
+    padding: 15px 0px 6px 35px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 25px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 12px 0px 0px 755px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 15px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 6px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 8px;
+    font-size: 15px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 20px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    width: 150px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 3px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 30px;
+  }
+  .doubts-cover-image {
+    width: 54%;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 10px !important;
+  }
+  .doubts-card-discubtion {
+    padding: 20px 0px 10px 38px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 755px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 24px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 30px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 6px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 5px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 14px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 0px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 14px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 12px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 20px 20px 35px;
+  }
+  .doubts-cover-image {
+    width: 45%;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 10px !important;
+  }
+  .doubts-card-discubtion {
+    padding: 20px 0px 10px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .close-circle-icon {
+    position: absolute;
+    padding: 12px 0px 0px 755px;
+    z-index: -1;
+    cursor: pointer;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 32px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 10px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 20px;
+    font-size: 20px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 20px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .doubts-card-action-columns {
+    font-size: 16px;
+    color: #334d6e;
+    padding: 0px 20px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 15px 20px 15px 35px;
+  }
+  .doubts-cover-image {
+    width: 40%;
+    margin: auto;
+    border-radius: 10px !important;
+    cursor: pointer;
+  }
+  .doubts-card-discubtion {
+    padding: 15px 0px 15px 34px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 30px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .doubts-tabs .ant-tabs-tab {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .close-circle-icon {
+    position: absolute;
+    padding: 10px 0px 0px 755px;
+    z-index: -1;
+  }
+  .doubts-tabs .ant-tabs-tab + .ant-tabs-tab {
+    margin: 0 0 0 36px;
+  }
+  .doubts-card-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .add-doubts-card-title {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: capitalize;
+  }
+  .doubts-card-publish {
+    color: #334d6e;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: capitalize;
+  }
+  .doubts-card-discubtion .doubts-card-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .doubts-cover-title {
+    color: #0b649d;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 34px;
+  }
+  .doubts-card-action
+    .doubts-card-action-columns
+    .doubts-card-action-text
+    .doubts-card-action-values {
+    padding: 0px 10px;
+  }
+  .doubts-tabs .ant-tabs-tab.ant-tabs-tab .ant-tabs-tab-btn {
+    color: #0b649d;
+    text-shadow: 0 0 0.25px currentColor;
+    padding: 0px 20px;
+    font-size: 23px;
+  }
+  .doubts-card-action {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 14px;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .doubts-card-action .doubts-card-action-columns .doubts-card-action-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #334d6e;
+    padding: 10px 30px;
+  }
+  .doubts-card-action-text:hover {
+    font-size: 16px;
+    color: #109cf1;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #e6faff;
+  }
+  .btn-answer {
+    font-weight: bold;
+    border-radius: 5px;
+    height: 46px;
+    color: #fff;
+    width: 170px;
+    background: #0b649d;
+    border: 0px solid;
+  }
+  .doubts-card-action-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .doubts-card-action-columns {
+    font-size: 18px;
+    color: #334d6e;
+    padding: 0px 30px;
+  }
+  .doubts-post-image {
+    border: 10px;
+    margin: 20px 30px;
+  }
+  .doubts-cover-image {
+    width: 38%;
+    margin: auto;
+    border-radius: 10px !important;
+  }
+  .doubts-card-discubtion {
+    padding: 30px 0px 0px 30px;
+  }
+  .doubts-tabs-nagation {
+    display: none;
+  }
+  .doubts-tabs .ant-tabs-nav-wrap {
+    justify-content: center;
+    padding: 0px 30px;
+  }
+}
+.doubts-cards .ant-card-head {
+  min-height: 48px;
+  margin-bottom: -1px;
+  padding: 0px;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  background: transparent;
+  border-bottom: none;
+  border-radius: 2px 2px 0 0;
+}
+.doubts-details-tabs-tab-pane {
+  background: #f0f2f5;
+}
+.doubts-tabs {
+  background: transparent;
+  margin-top: 15px;
+  padding: 0px;
+}
+.doubts-cards {
+  width: 100%;
+  margin: 20px auto;
+  padding: 0px 15px 15px 15px;
+  box-shadow: 0px 2px 10px rgba(90, 114, 200, 0.1);
+}
+.doubts-tabs .ant-tabs-nav-wrap {
+  background: linear-gradient(180deg, #ffffff 0%, #e0f3ff 100%);
+  font-weight: 500;
+  font-size: 20px;
+  z-index: 2;
+  box-shadow: 6px 0px 18px rgb(90 114 200 / 6%);
+  border-radius: 2px;
+}
+.doubts-post-add-image {
+  width: 80px;
+  height: 75px;
+  margin: 0px 10px;
+  border: 2px solid;
+  background: rgb(255, 255, 255);
+}
+span.closesr {
+  position: relative;
+  bottom: 40px;
+  right: 30px;
+  cursor: pointer;
+}
+span.ans-closesr {
+  position: relative;
+  cursor: pointer;
+  bottom: 85px;
+  left: 130px;
+}
+span.ans-closes {
+  position: relative;
+  bottom: 70px;
+  right: 7px;
+  cursor: pointer;
+}
+.doubts-card-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 8px 8px 0px 0px;
+}
+.doubts-card-inner-content {
+  flex: 1;
+}
+.doubts-card-avatar {
+  float: left;
+  background: #e4e5e7;
+  padding: 0px;
+  border-radius: 90px;
+  margin-right: 15px;
+}
+.doubts-card-body {
+  cursor: pointer;
+}
+.action-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.doubts-Menu {
+  transform: rotate(90deg);
+  color: #000;
+}
+.doubts-modal {
+  display: none;
+  position: fixed;
+  z-index: 1999;
+  padding: 80px 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.add-boubt-btn {
+  padding: 20px 30px;
+  margin-bottom: -45px;
+}
+.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap,
+.ant-tabs > div > .ant-tabs-nav .ant-tabs-nav-wrap {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  flex: auto;
+  align-self: stretch;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: translate(0);
+  z-index: 0;
+}
+.doubts-details-lable {
+  color: rgb(1, 165, 78);
+  background: rgb(204, 255, 228);
+  padding: 15px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  border-radius: 5px;
+}
+.add-boubt-btn-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 0px 0px 15px;
+  align-items: center;
+  margin-right: 0px;
+}
+.img-upload-boubt-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  margin-right: 0px;
+}
+.add-doubts-btn {
+  font-weight: 900;
+  border-radius: 5px;
+  height: 40px;
+  color: #fff;
+  width: 200px;
+  background: #0b649d;
+  border: 0px solid;
+}
+.add-doubts-btn:hover,
+.add-doubts-btn:focus {
+  color: #fff;
+  background: #0b649d;
+  border-color: #0b649d;
+}
+.btn-answer:hover,
+.btn-answer:focus {
+  color: #fff;
+  background: #0b649d;
+  border-color: #0b649d;
+}
+.add-doubts-cards {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.doubts-post-image .ant-image-img {
+  max-height: 385px;
+  border-radius: 10px;
+}
+.doubts-post-image .ant-image-mask {
+  border-radius: 10px;
+}
+.doubts-level-content {
+  top: 43px;
+  position: absolute;
+  left: 42px;
+  z-index: 1;
+}
+.doubts-level-content-creat {
+  top: 46px;
+  position: absolute;
+  left: 50px;
+  z-index: 1;
+}
+.doubts-level-count {
+  position: relative;
+  top: 1px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+.doubts-card-star-content {
+  top: 50px;
+  position: absolute;
+  left: 45px;
+  z-index: 1;
+}
+audio::-webkit-media-controls-panel {
+  background-color: rgb(224, 243, 255);
+}
+audio::-webkit-media-controls-volume-slider {
+  background-color: #b1d4e0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  color: #0b649d;
+}
+video::-internal-media-controls-download-button {
+  display: none;
+}
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adjust as needed */
+}

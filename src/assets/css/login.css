@@ -1,0 +1,1349 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .login-container {
+    padding-bottom: 80px;
+  }
+  .login-container-bg {
+    background: url(../images/login-bg.svg);
+    height: 760px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 720px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container-logo {
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    display: inline;
+  }
+  .login-container-header {
+    margin: 0px 30px;
+    display: none;
+  }
+  .login-container-header .login-container-header-menu {
+    padding: 20px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .login-container-header-register {
+    float: right;
+    padding: 20px;
+    display: none;
+  }
+  .login-container-header-menu-icon {
+    float: right;
+    padding: 20px;
+    display: block;
+  }
+  .login-container-header-register .login-container-header-register-button {
+    background: #0b649d;
+    border-radius: 6px;
+    height: 35px;
+    width: 110px;
+    letter-spacing: 1.5px;
+  }
+  .login-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .login-container-content .login-container-content-1 {
+    width: 50%;
+    display: none;
+  }
+  .login-container-content .login-container-content-1 .login-carousel-main {
+    height: 500px;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-1 {
+    background-image: url("../images/learn_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-2 {
+    background-image: url("../images/crack_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-3 {
+    background-image: url("../images/lead_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description {
+    margin: auto;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .header {
+    color: #0b649d;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .content {
+    color: #0b649d;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+  .login-container-content-2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .login-container-content-2 .card-form {
+    background: #fff;
+    width: auto;
+    margin: 20px;
+    box-shadow: 0px 21.0037px 31.5056px rgba(147, 153, 176, 0.15);
+    border-radius: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content {
+    padding: 20px 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .card-form-header {
+    padding: 5px 5px 0px;
+    font-size: 16px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .card-form-header
+    .text {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .card-form-content .key {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container {
+    padding: 20px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container
+    .button {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-google-props-button-image {
+    padding-right: 10px;
+  }
+  .login-google-props-button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-content-2 .card-form .card-form-content label {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2 .card-form .card-form-content .divider {
+    margin: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .footer {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .footer-image {
+    background-image: url("../images/banner.png");
+    height: 160px;
+    min-height: 160px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .login-container-content-2 .footer {
+    padding: 15px 0px;
+    color: #5a686c;
+  }
+  .login-card-footer {
+    width: 25px;
+    height: 25px;
+  }
+  .login-card-google-play-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 150px;
+    background: transparent;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-footer .login-testimonal {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .login-container-footer .login-testimonal .image {
+    width: 120px;
+    height: 100px;
+  }
+  .login-container-footer .login-testimonal .image-header {
+    color: #0b649d;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  .login-container-footer .login-testimonal .image-sub-title {
+    color: #0b649d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .login-container-footer .blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .login-container-footer .blocks .block {
+    text-align: center;
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .image {
+    width: 100%;
+    height: 120px;
+  }
+  .login-container-footer .blocks .block .text-content {
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .text-content .text {
+    color: #0b649d;
+    font-size: 18px;
+  }
+  .login-container-footer .blocks .block .text-content .sub-text {
+    font-size: 14px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .login-container {
+    padding-bottom: 80px;
+  }
+  .login-container-bg {
+    background: url(../images/login-bg.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container-logo {
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    display: inline;
+  }
+  .login-container-header {
+    margin: 0px 30px;
+    display: none;
+  }
+  .login-container-header .login-container-header-menu {
+    padding: 20px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .login-container-header-register {
+    float: right;
+    padding: 20px;
+    display: none;
+  }
+  .login-container-header-menu-icon {
+    float: right;
+    padding: 20px;
+    display: block;
+  }
+  .login-container-header-register .login-container-header-register-button {
+    background: #0b649d;
+    border-radius: 6px;
+    height: 35px;
+    width: 110px;
+    letter-spacing: 1.5px;
+  }
+  .login-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .login-container-content .login-container-content-1 {
+    width: 50%;
+    display: none;
+  }
+  .login-container-content .login-container-content-1 .login-carousel-main {
+    height: 500px;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-1 {
+    background-image: url("../images/learn_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-2 {
+    background-image: url("../images/crack_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-3 {
+    background-image: url("../images/lead_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description {
+    margin: auto;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .header {
+    color: #0b649d;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .content {
+    color: #0b649d;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+  .login-container-content-2 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .login-container-content-2 .card-form {
+    background: #fff;
+    width: 400px;
+    margin: auto;
+    box-shadow: 0px 21.0037px 31.5056px rgba(147, 153, 176, 0.15);
+    border-radius: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content {
+    padding: 20px 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .card-form-header {
+    padding: 5px 5px 0px;
+    font-size: 16px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .card-form-header
+    .text {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .card-form-content .key {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container {
+    padding: 30px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container
+    .button {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-google-props-button-image {
+    padding-right: 10px;
+  }
+  .login-google-props-button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-content-2 .card-form .card-form-content label {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2 .card-form .card-form-content .divider {
+    margin: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .footer {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .footer-image {
+    background-image: url("../images/banner.png");
+    height: 140px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 15px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .login-container-content-2 .footer {
+    padding: 15px 0px;
+    color: #5a686c;
+  }
+  .login-card-footer {
+    width: 25px;
+    height: 25px;
+  }
+  .login-card-google-play-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 150px;
+    background: transparent;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-footer .login-testimonal {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .login-container-footer .login-testimonal .image {
+    width: 120px;
+    height: 100px;
+  }
+  .login-container-footer .login-testimonal .image-header {
+    color: #0b649d;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  .login-container-footer .login-testimonal .image-sub-title {
+    color: #0b649d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .login-container-footer .blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .login-container-footer .blocks .block {
+    text-align: center;
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .image {
+    width: 100%;
+    height: 120px;
+  }
+  .login-container-footer .blocks .block .text-content {
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .text-content .text {
+    color: #0b649d;
+    font-size: 18px;
+  }
+  .login-container-footer .blocks .block .text-content .sub-text {
+    font-size: 14px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .login-container {
+    padding-bottom: 80px;
+  }
+  .login-container-bg {
+    background: url(../images/login-bg.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container-logo {
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    display: inline;
+  }
+  .login-container-header {
+    margin: 0px 30px;
+    display: none;
+  }
+  .login-container-header .login-container-header-menu {
+    padding: 20px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .login-container-header-register {
+    float: right;
+    padding: 20px;
+    display: none;
+  }
+  .login-container-header-menu-icon {
+    float: right;
+    padding: 20px;
+    display: block;
+  }
+  .login-container-header-register .login-container-header-register-button {
+    background: #0b649d;
+    border-radius: 6px;
+    height: 35px;
+    width: 110px;
+    letter-spacing: 1.5px;
+  }
+  .login-container-content .login-container-content-1 {
+    width: 50%;
+    display: inline;
+  }
+  .login-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .login-container-content .login-container-content-1 .login-carousel-main {
+    height: 500px;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-1 {
+    background-image: url("../images/learn_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-2 {
+    background-image: url("../images/crack_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-3 {
+    background-image: url("../images/lead_banner_new.svg");
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description {
+    margin: auto;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .header {
+    color: #0b649d;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .content {
+    color: #0b649d;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+  .login-container-content-2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .login-container-content-2 .card-form {
+    background: #fff;
+    width: 350px;
+    margin: auto;
+    box-shadow: 0px 21.0037px 31.5056px rgba(147, 153, 176, 0.15);
+    border-radius: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content {
+    padding: 20px 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .card-form-header {
+    padding: 5px 5px 0px;
+    font-size: 16px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .card-form-header
+    .text {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .card-form-content .key {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container {
+    padding: 30px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container
+    .button {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-google-props-button-image {
+    padding-right: 10px;
+  }
+  .login-google-props-button {
+    border-radius: 6px;
+    margin: 5px 1px 0px 1px;
+    height: 35px;
+    width: 100%;
+    background: #fff;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-content-2 .card-form .card-form-content label {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2 .card-form .card-form-content .divider {
+    margin: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .footer {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .footer-image {
+    background-image: url("../images/banner.png");
+    height: 120px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .login-container-content-2 .footer {
+    padding: 15px 0px;
+    color: #5a686c;
+  }
+  .login-card-footer {
+    width: 25px;
+    height: 25px;
+  }
+  .login-card-google-play-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 150px;
+    background: transparent;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-footer .login-testimonal {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .login-container-footer .login-testimonal .image {
+    width: 120px;
+    height: 100px;
+  }
+  .login-container-footer .login-testimonal .image-header {
+    color: #0b649d;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  .login-container-footer .login-testimonal .image-sub-title {
+    color: #0b649d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .login-container-footer .blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .login-container-footer .blocks .block {
+    text-align: center;
+  }
+  .login-container-footer .blocks .block .image {
+    width: 100%;
+    height: 120px;
+  }
+  .login-container-footer .blocks .block .text-content {
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .text-content .text {
+    color: #0b649d;
+    font-size: 18px;
+  }
+  .login-container-footer .blocks .block .text-content .sub-text {
+    font-size: 14px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .login-container {
+    padding-bottom: 80px;
+  }
+  .login-container-bg {
+    background: url(../images/login-bg.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 790px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container-logo {
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    display: inline;
+  }
+  .login-container-header {
+    margin: 0px 30px;
+    display: inline-block;
+  }
+  .login-container-header .login-container-header-menu {
+    padding: 20px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .login-container-header-register {
+    float: right;
+    padding: 20px;
+    display: block;
+  }
+  .login-container-header-menu-icon {
+    float: right;
+    padding: 20px;
+    display: none;
+  }
+  .login-container-header-register .login-container-header-register-button {
+    background: #0b649d;
+    border-radius: 6px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 1.5px;
+  }
+  .login-container-content .login-container-content-1 {
+    width: 50%;
+    display: inline;
+  }
+  .login-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .login-container-content .login-container-content-1 .login-carousel-main {
+    height: 600px;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-1 {
+    background-image: url("../images/learn_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-2 {
+    background-image: url("../images/crack_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-3 {
+    background-image: url("../images/lead_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description {
+    margin: auto;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .header {
+    color: #0b649d;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .content {
+    color: #0b649d;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+  .login-container-content-2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .login-container-content-2 .card-form {
+    background: #fff;
+    width: 450px;
+    margin: auto;
+    box-shadow: 0px 21.0037px 31.5056px rgba(147, 153, 176, 0.15);
+    border-radius: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content {
+    padding: 20px 30px;
+  }
+  .login-container-content-2 .card-form .card-form-content .card-form-header {
+    padding: 5px 5px 0px;
+    font-size: 16px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .card-form-header
+    .text {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .card-form-content .key {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container {
+    padding: 30px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container
+    .button {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-google-props-button-image {
+    padding-right: 10px;
+  }
+  .login-google-props-button {
+    border-radius: 6px;
+    height: 40px;
+    width: 100%;
+    background: #fff;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-content-2 .card-form .card-form-content label {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2 .card-form .card-form-content .divider {
+    margin: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .footer {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .footer-image {
+    background-image: url("../images/banner.png");
+    height: 150px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+  }
+  .login-container-content-2 .footer {
+    padding: 15px 0px;
+    color: #5a686c;
+  }
+  .login-card-footer {
+    width: 25px;
+    height: 25px;
+  }
+  .login-card-google-play-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 150px;
+    background: transparent;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-footer .login-testimonal {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .login-container-footer .login-testimonal .image {
+    width: 120px;
+    height: 100px;
+  }
+  .login-container-footer .login-testimonal .image-header {
+    color: #0b649d;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  .login-container-footer .login-testimonal .image-sub-title {
+    color: #0b649d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .login-container-footer .blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .login-container-footer .blocks .block {
+    text-align: center;
+  }
+  .login-container-footer .blocks .block .image {
+    width: 100%;
+    height: 120px;
+  }
+  .login-container-footer .blocks .block .text-content {
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .text-content .text {
+    color: #0b649d;
+    font-size: 18px;
+  }
+  .login-container-footer .blocks .block .text-content .sub-text {
+    font-size: 14px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .login-container {
+    padding-bottom: 80px;
+  }
+  .login-container-bg {
+    background: url(../images/login-bg.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .login-container-logo {
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    display: inline;
+  }
+  .login-container-header {
+    margin: 0px 30px;
+    display: inline-block;
+  }
+  .login-container-header .login-container-header-menu {
+    padding: 20px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  .login-container-header-register {
+    float: right;
+    padding: 20px;
+    display: block;
+  }
+  .login-container-header-menu-icon {
+    float: right;
+    padding: 20px;
+    display: none;
+  }
+  .login-container-header-register .login-container-header-register-button {
+    background: #0b649d;
+    border-radius: 6px;
+    height: 40px;
+    width: 150px;
+    letter-spacing: 1.5px;
+  }
+  .login-container-content .login-container-content-1 {
+    width: 50%;
+    display: inline;
+  }
+  .login-container-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .login-container-content .login-container-content-1 .login-carousel-main {
+    height: 600px;
+    color: #000;
+    text-align: center;
+    background: transparent;
+    width: 100%;
+    padding: 30px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-1 {
+    background-image: url("../images/learn_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-2 {
+    background-image: url("../images/crack_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-image-3 {
+    background-image: url("../images/lead_banner_new.svg");
+    width: 450px;
+    height: 400px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description {
+    margin: auto;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .header {
+    color: #0b649d;
+    font-size: 70px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+  }
+  .login-container-content
+    .login-container-content-1
+    .login-carousel-main
+    .login-carousel-main-description
+    .content {
+    color: #0b649d;
+    font-size: 14px;
+    position: relative;
+    bottom: 15px;
+  }
+  .login-container-content-2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  .login-container-content-2 .card-form {
+    background: #fff;
+    width: 450px;
+    margin: auto;
+    box-shadow: 0px 21.0037px 31.5056px rgba(147, 153, 176, 0.15);
+    border-radius: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content {
+    padding: 20px 30px;
+  }
+  .login-container-content-2 .card-form .card-form-content .card-form-header {
+    padding: 5px 5px 0px;
+    font-size: 16px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .card-form-header
+    .text {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .card-form-content .key {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container {
+    padding: 30px;
+  }
+  .login-container-content-2
+    .card-form
+    .card-form-content
+    .google-button-container
+    .button {
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .login-google-props-button-image {
+    padding-right: 10px;
+  }
+  .login-google-props-button {
+    border-radius: 6px;
+    margin: 6px 0px 1px 2px;
+    height: 35px;
+    width: 100%;
+    background: #fff;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-content-2 .card-form .card-form-content label {
+    font-size: 12px;
+    color: #5a686c;
+  }
+  .login-container-content-2 .card-form .card-form-content .divider {
+    margin: 10px;
+  }
+  .login-container-content-2 .card-form .card-form-content .footer {
+    color: #0b649d;
+  }
+  .login-container-content-2 .card-form .footer-image {
+    background-image: url("../images/banner.png");
+    height: 150px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    top: 10px;
+    overflow: hidden;
+  }
+  .login-container-content-2 .footer {
+    padding: 15px 0px;
+    color: #5a686c;
+  }
+  .login-card-footer {
+    width: 25px;
+    height: 25px;
+  }
+  .login-card-google-play-button {
+    border-radius: 6px;
+    height: 35px;
+    width: 150px;
+    background: transparent;
+    color: #0b649d;
+    border: 1px solid #2990cc;
+  }
+  .login-container-footer .login-testimonal {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .login-container-footer .login-testimonal .image {
+    width: 120px;
+    height: 100px;
+  }
+  .login-container-footer .login-testimonal .image-header {
+    color: #0b649d;
+    letter-spacing: 2px;
+    padding: 5px;
+  }
+  .login-container-footer .login-testimonal .image-sub-title {
+    color: #0b649d;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .login-container-footer .blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+  }
+  .login-container-footer .blocks .block {
+    text-align: center;
+  }
+  .login-container-footer .blocks .block .image {
+    width: 100%;
+    height: 120px;
+  }
+  .login-container-footer .blocks .block .text-content {
+    padding: 20px;
+  }
+  .login-container-footer .blocks .block .text-content .text {
+    color: #0b649d;
+    font-size: 18px;
+  }
+  .login-container-footer .blocks .block .text-content .sub-text {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 775px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media only screen and (min-width: 2100px) {
+  .maintenances-container-bg {
+    background: url(../images/Maintenance.svg);
+    height: 950px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.responsive-menu {
+  background: linear-gradient(180deg, #ffffff 0%, #e0f3ff 100%);
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  display: none;
+}

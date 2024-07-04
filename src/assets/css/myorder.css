@@ -1,0 +1,89 @@
+@media (min-width: 320px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 375px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 425px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 641px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 768px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 961px) {
+  .my-order-main-content {
+    margin: 80px 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .my-order-main-content {
+    margin: 80px 150px;
+  }
+}
+@media (min-width: 1366px) {
+  .my-order-main-content {
+    margin: 80px 150px;
+  }
+}
+@media (min-width: 1440px) {
+  .my-order-main-content {
+    margin: 80px 150px;
+  }
+}
+@media (min-width: 1920px) {
+  .my-order-main-content {
+    margin: 80px 150px;
+  }
+}
+@media (min-width: 2560px) {
+  .my-order-main-content {
+    margin: 80px 250px;
+  }
+}
+.my-order-content-border {
+  border-bottom: 1px solid rgba(90, 114, 200, 0.2);
+}
+.my-order-titel {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #0b649d;
+}
+.my-order-link-text {
+  text-decoration: underline;
+}
+.my-order-row {
+  padding: 40px 10px 22px 10px;
+}
+.my-order-content-row:hover {
+  background-color: #daf8ff;
+  border: 1px solid rgba(90, 114, 200, 0.2);
+}
+.my-order-content-row {
+  border: 1px solid rgba(90, 114, 200, 0.2);
+  border-radius: 5px;
+  padding: 25px 10px;
+  margin-bottom: 28px;
+  background: rgb(255, 255, 255);
+}
+.my-order-content-col {
+  border-right: 1px solid rgba(90, 114, 200, 0.2);
+}
+.my-order-amount {
+  text-align: center;
+  color: #3c4852;
+  font-weight: 500;
+  font-size: 16px;
+}

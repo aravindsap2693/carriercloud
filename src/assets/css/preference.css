@@ -1,0 +1,433 @@
+@media (min-width: 320px) {
+  .preference-main {
+    background: transparent;
+    padding: 10px;
+    margin: auto;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+  }
+  .preference-main .background-gradient {
+    margin: auto;
+    padding: 30px 20px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 10px;
+    height: 210px;
+    width: 100%;
+  }
+  .preference-main .background-gradient .image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+  }
+  .preference-main .background-gradient .header {
+    padding: 15px 0px;
+  }
+  .preference-main .background-gradient .header .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .preference-main .background-gradient .header .content .text {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  .preference-main .background-gradient .header .content .sub-text {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .preference-main .content {
+    margin: auto;
+  }
+  .preference-main .content .content-block {
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(180deg, #e0f3ff 0%, #ffffff 100%);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .preference-main .content .content-block .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .preference-main .content .content-block .title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #0b649d;
+    padding: 0px 10px;
+  }
+  .preference-main .content .content-block .icon-add {
+    font-size: 22px;
+    color: grey;
+  }
+  .preference-main .content .content-block .icon-check {
+    font-size: 22px;
+    color: #0b649d;
+  }
+  .preference-main .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .preference-breadcrumb-container {
+    padding: 20px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+  }
+  .preference-breadcrumb-text {
+    font-size: 14px;
+    color: #0b649d;
+  }
+  .preference-main .footer .save {
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid;
+    font-size: 12px;
+    background: #0b649d;
+  }
+  .preference-main .footer .cancel {
+    border-radius: 6px;
+    color: #000;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 481px) {
+}
+
+@media (min-width: 641px) {
+  .preference-main {
+    background: transparent;
+    padding: 10px;
+    margin: auto;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+  }
+  .preference-main .background-gradient {
+    margin: auto;
+    padding: 30px 20px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 10px;
+    height: 280px;
+    width: 100%;
+  }
+  .preference-main .background-gradient .image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  .preference-main .background-gradient .header {
+    padding: 15px 0px;
+  }
+  .preference-main .background-gradient .header .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .preference-main .background-gradient .header .content .text {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+    font-size: 20px;
+  }
+  .preference-main .background-gradient .header .content .sub-text {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .preference-main .content {
+    margin: auto;
+  }
+  .preference-main .content .content-block {
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(180deg, #e0f3ff 0%, #ffffff 100%);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .preference-main .content .content-block .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .preference-main .content .content-block .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0b649d;
+    padding: 0px 10px;
+  }
+  .preference-main .content .content-block .icon-add {
+    font-size: 28px;
+    color: grey;
+  }
+  .preference-main .content .content-block .icon-check {
+    font-size: 28px;
+    color: #0b649d;
+  }
+  .preference-main .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .preference-breadcrumb-container {
+    padding: 20px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+  }
+  .preference-breadcrumb-text {
+    font-size: 14px;
+    color: #0b649d;
+  }
+  .preference-main .footer .save {
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid;
+    font-size: 12px;
+    background: #0b649d;
+  }
+  .preference-main .footer .cancel {
+    border-radius: 6px;
+    color: #000;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 961px) {
+  .preference-main {
+    background: transparent;
+    padding: 10px;
+    margin: auto;
+    min-height: 100vh;
+    height: 100%;
+    width: 80%;
+  }
+  .preference-main .background-gradient {
+    margin: auto;
+    padding: 30px 20px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 10px;
+    height: 250px;
+    width: 100%;
+  }
+  .preference-main .background-gradient .image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  .preference-main .background-gradient .header {
+    padding: 15px 0px;
+  }
+  .preference-main .background-gradient .header .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .preference-main .background-gradient .header .content .text {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+    font-size: 16px;
+  }
+  .preference-main .background-gradient .header .content .sub-text {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .preference-main .content {
+    margin: auto;
+    width: 75%;
+  }
+  .preference-main .content .content-block {
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(180deg, #e0f3ff 0%, #ffffff 100%);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .preference-main .content .content-block .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .preference-main .content .content-block .title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0b649d;
+    padding: 0px 10px;
+  }
+  .preference-main .content .content-block .icon-add {
+    font-size: 28px;
+    color: grey;
+  }
+  .preference-main .content .content-block .icon-check {
+    font-size: 28px;
+    color: #0b649d;
+  }
+  .preference-main .footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .preference-breadcrumb-container {
+    padding: 20px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+  }
+  .preference-breadcrumb-text {
+    font-size: 14px;
+    color: #0b649d;
+  }
+  .preference-main .footer .save {
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid;
+    font-size: 12px;
+    background: #0b649d;
+  }
+  .preference-main .footer .cancel {
+    border-radius: 6px;
+    color: #000;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1025px) {
+}
+
+@media (min-width: 1281px) {
+  .preference-main {
+    background: transparent;
+    padding-top: 0px;
+    width: 70%;
+    margin: auto;
+  }
+  .preference-main .background-gradient {
+    margin: auto;
+    padding: 30px 80px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 10px;
+    height: 390px;
+    width: 100%;
+  }
+  .preference-main .background-gradient .image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  .preference-main .background-gradient .header {
+    padding: 15px 0px;
+  }
+  .preference-main .background-gradient .header .content {
+    display: flex;
+    flex-direction: row;
+  }
+  .preference-main .background-gradient .header .content .text {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+    font-size: 24px;
+  }
+  .preference-main .background-gradient .header .content .sub-text {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .preference-main .content {
+    margin: auto;
+    width: 70%;
+  }
+  .preference-main .content .content-block {
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(180deg, #e0f3ff 0%, #ffffff 100%);
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .preference-main .content .content-block .image {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+  .preference-main .content .content-block .title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0b649d;
+  }
+  .preference-main .content .content-block .icon-add {
+    font-size: 40px;
+    color: grey;
+  }
+  .preference-main .content .content-block .icon-check {
+    font-size: 40px;
+    color: #0b649d;
+  }
+  .preference-main .footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  .preference-breadcrumb-container {
+    padding: 20px !important;
+    padding-left: 0px !important;
+    margin: 0px !important;
+  }
+  .preference-breadcrumb-text {
+    font-size: 16px;
+    color: #0b649d;
+  }
+  .preference-main .footer .save {
+    border-radius: 6px;
+    color: #fff;
+    border: 1px solid;
+    font-size: 14px;
+  }
+  .preference-main .footer .cancel {
+    border-radius: 6px;
+    color: #000;
+    font-size: 14px;
+  }
+}
+
+.cancel:hover {
+  color: #4096ff !important;
+  border-color: #4096ff;
+}

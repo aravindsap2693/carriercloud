@@ -1,0 +1,569 @@
+@media (min-width: 320px) {
+  .breadcrumb-text {
+    width: 100%;
+  }
+  .profile-main {
+    background: transparent;
+    padding: 10px;
+  }
+  .profile-main .container {
+    margin: auto;
+  }
+  .profile-main .container .header-panel {
+    padding: 20px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 15px;
+  }
+  .profile-main .container .header-panel .background-image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  .profile-main .container .header-panel .content {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .profile-main .container .header-panel .content .content-panel {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .profile-image {
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+  }
+  .profile-main .container .header-panel .content .content-panel .upload-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    padding: 5px;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text {
+    padding: 0px 10px;
+    position: absolute;
+    text-align: center;
+    left: 23%;
+    padding: 10px;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .username {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .email {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .profile-main .container .form-panel {
+    margin: 30px 0px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+  }
+  .profile-main .container .form-header {
+    background: #0b649d;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0px 40px;
+  }
+  .profile-main .container .form-header .header-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .profile-main .container .form-panel .forms {
+    padding: 10px;
+    margin: 10px;
+  }
+  .profile-main .container .form-panel .forms .change-email {
+    font-size: 12px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .profile-main .container .form-panel .forms .footer {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .profile-main .container .form-panel .forms .footer .cancel {
+    margin: 0px 5px;
+    background: #c4c4c4;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+  .profile-main .container .form-panel .forms .footer .submit {
+    margin: 0px 5px;
+    background: #0b649d;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 481px) {
+}
+
+@media (min-width: 641px) {
+  .profile-main {
+    background: transparent;
+    padding: 10px;
+  }
+  .profile-main .container {
+    margin: auto;
+  }
+  .profile-main .container .header-panel {
+    padding: 30px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 15px;
+  }
+  .profile-main .container .header-panel .background-image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  .profile-main .container .header-panel .content {
+    padding: 10px 50px;
+    display: block;
+  }
+  .profile-main .container .header-panel .content .content-panel {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .profile-image {
+    position: relative;
+    bottom: 55px;
+  }
+  .profile-main .container .header-panel .content .content-panel .upload-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    padding: 5px;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text {
+    padding: 0px 30px;
+    text-align: start;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .username {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .email {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .profile-main .container .form-panel {
+    margin: 30px 0px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+  }
+  .profile-main .container .form-header {
+    background: #0b649d;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0px 40px;
+  }
+  .profile-main .container .form-header .header-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .profile-main .container .form-panel .forms {
+    padding: 50px;
+    margin: 0px 10px;
+  }
+  .profile-main .container .form-panel .forms .change-email {
+    font-size: 12px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .profile-main .container .form-panel .forms .footer {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .profile-main .container .form-panel .forms .footer .cancel {
+    margin: 0px 5px;
+    background: #c4c4c4;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+  .profile-main .container .form-panel .forms .footer .submit {
+    margin: 0px 5px;
+    background: #0b649d;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 961px) {
+  .profile-main {
+    background: transparent;
+    padding: 10px;
+  }
+  .profile-main .container {
+    margin: auto;
+    width: 80%;
+  }
+  .profile-main .container .header-panel {
+    padding: 30px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+    height: 250px;
+    margin-top: 15px;
+  }
+  .profile-main .container .header-panel .background-image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+  }
+  .profile-main .container .header-panel .content {
+    padding: 10px 50px;
+    display: block;
+  }
+  .profile-main .container .header-panel .content .content-panel {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .profile-image {
+    position: relative;
+    bottom: 55px;
+  }
+  .profile-main .container .header-panel .content .content-panel .upload-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    padding: 5px;
+    background: #fff;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text {
+    padding: 0px 0px;
+    text-align: start;
+    position: unset;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .username {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .email {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .profile-main .container .form-panel {
+    margin: 30px 0px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+  }
+  .profile-main .container .form-header {
+    background: #0b649d;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0px 40px;
+  }
+  .profile-main .container .form-header .header-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .profile-main .container .form-panel .forms {
+    padding: 50px;
+    margin: 0px 10px;
+  }
+  .profile-main .container .form-panel .forms .change-email {
+    font-size: 14px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .profile-main .container .form-panel .forms .footer {
+    text-align: center;
+    padding: 20px 0px;
+  }
+  .profile-main .container .form-panel .forms .footer .cancel {
+    margin: 0px 5px;
+    background: #c4c4c4;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+  .profile-main .container .form-panel .forms .footer .submit {
+    margin: 0px 5px;
+    background: #0b649d;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .breadcrumb-text {
+    color: #0b649d;
+    font-size: 16px;
+    min-height: 100vh;
+    height: 100%;
+  }
+  .profile-main {
+    background: transparent;
+    padding: 10px 0px 5px;
+  }
+  .profile-main .container {
+    width: 70%;
+    margin: auto;
+  }
+  .profile-main .container .header-panel {
+    padding: 30px 80px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+    height: 360px;
+    margin-top: 15px;
+  }
+  .profile-main .container .header-panel .background-image {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+  .profile-main .container .header-panel .content {
+    padding: 10px 50px;
+  }
+  .profile-main .container .header-panel .content .content-panel {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .profile-image {
+    position: relative;
+    bottom: 55px;
+  }
+  .profile-main .container .header-panel .content .content-panel .upload-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 90px;
+    padding: 5px;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text {
+    padding: 0px 10px;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .username {
+    font-weight: bold;
+    color: #192a3e;
+    text-transform: capitalize;
+  }
+  .profile-main
+    .container
+    .header-panel
+    .content
+    .content-panel
+    .content-panel-text
+    .email {
+    color: #192a3e;
+    font-size: 12px;
+  }
+  .profile-main .container .form-panel {
+    margin: 30px 0px;
+    box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+    background: linear-gradient(
+      360deg,
+      #e0f3ff -44.77%,
+      #e3f4ff -30.42%,
+      #ffffff 67.98%
+    );
+    border-radius: 20px;
+  }
+  .profile-main .container .form-header {
+    background: #0b649d;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    margin: 0px 40px;
+  }
+  .profile-main .container .form-header .header-text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+  .profile-main .container .form-panel .forms {
+    padding: 50px;
+    margin: auto;
+    width: 70%;
+  }
+  .profile-main .container .form-panel .forms .change-email {
+    font-size: 14px;
+    color: #0b649d;
+    cursor: pointer;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .profile-main .container .form-panel .forms .footer {
+    text-align: right;
+    padding: 20px 0px;
+  }
+  .profile-main .container .form-panel .forms .footer .cancel {
+    margin: 0px 5px;
+    background: #c4c4c4;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+  .profile-main .container .form-panel .forms .footer .submit {
+    margin: 0px 5px;
+    background: #0b649d;
+    color: #fff;
+    width: 100px;
+    height: 45px;
+  }
+}
+
+.container {
+  /* display: flex; */
+  width: 100%;
+  height: 100%;
+}

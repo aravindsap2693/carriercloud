@@ -1,0 +1,165 @@
+body {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  font-feature-settings: "tnum", "tnum";
+}
+
+.my-question-card-column {
+  box-shadow: 1px 2px 4px #e4e5e7;
+}
+
+/* IMAGE MODAL POPUP */
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 20; /* Sit on top */
+  padding: 80px 10px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  overflow-y: scroll;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: auto;
+  max-width: 1200px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: none;
+  width: 80%;
+  max-width: 1200px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 250px;
+  font-size: 18px;
+}
+
+/* Add Animation */
+.modal-content,
+#caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #f1f1f1;
+  font-size: 28px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.expire-text {
+  font-size: 22px;
+  /* margin: 20px; */
+  font-weight: 600;
+  font-family: sans-serif;
+  position: relative;
+  color: #c4c4c4;
+}
+.expire-text:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  right: 0;
+  border-top: 1px solid #ee2d3b !important;
+  border-color: inherit;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  transform: rotate(-10deg);
+}
+
+#custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+#custom-scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+/* Handle */
+#custom-scroll::-webkit-scrollbar-thumb {
+  /* background: #e4e5e7;  */
+  background: #c1c1c1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#custom-scroll::-webkit-scrollbar-thumb:hover {
+  /* background: rgba(90, 114, 200, 0.04);  */
+  background: lightgray;
+}
+
+* {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+/* 100% Image Width on Smaller Screens */
+/* @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  } */

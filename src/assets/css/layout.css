@@ -1,0 +1,290 @@
+.main-content {
+  margin: 80px 250px;
+  /* min-height: 100vh; */
+  /* height: 100%; */
+}
+
+.header-container {
+  margin: 0px;
+}
+.drawer {
+  margin: 0px;
+}
+.drawer-list {
+  margin-top: 30px !important;
+}
+.item .menu-icon {
+  padding: 0px 15px;
+}
+.modal-list-footer {
+  text-align: center !important;
+  padding: 20px 0px;
+}
+.modal-list .list-item {
+  justify-content: center !important;
+}
+.header-container .main-layout {
+  background: linear-gradient(180deg, #ffffff 0%, #e0f3ff 100%);
+  box-shadow: 6px 0px 18px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+.header-container .main-layout .responsive-row {
+  margin: 0px;
+  justify-content: space-between;
+}
+.header-container .main-layout .responsive-row .logo-column {
+  margin: 0px;
+}
+.header-container .main-layout .responsive-row .logo-column .span {
+  padding: 10px;
+  cursor: pointer !important;
+}
+.header-container .main-layout .responsive-row .logo-column .span .image {
+  width: 60px;
+  padding: 10px;
+}
+.header-container .main-layout .responsive-row .menu-column {
+  margin: 0px;
+  text-align: end;
+  padding: 0px 10px;
+}
+.header-container .main-layout .responsive-row .menu-column .menu-span {
+  margin: 0px;
+}
+.header-container .main-layout .responsive-row .menu-column .menu-span .icon {
+  margin: 0px;
+}
+.header-container .main-layout .row {
+  margin: 0px;
+}
+.header-container .main-layout .row .logo-column {
+  margin: 0px;
+}
+
+.header-container .main-layout .row .logo-column .span .image {
+  width: 100%;
+  height: 100%;
+  padding: 10px 14px;
+}
+.header-container .main-layout .row .menu-column1 {
+  margin: 0px;
+}
+.header-container .main-layout .row .menu-column1 .row {
+  margin: 0px;
+  align-items: center;
+}
+.header-container .main-layout .row .menu-column1 .row .menu-span {
+  margin: 0px;
+}
+.header-container .main-layout .row .menu-column1 .row .menu-span .link {
+  padding: 22px 15px;
+  color: #0b649d;
+  min-width: 132px;
+  display: block;
+  text-align: center;
+}
+.header-container .main-layout .row .menu-column1 .row .menu-span .link .icon {
+  padding: 0px 10px;
+  font-size: 16px;
+  padding-left: 0px;
+}
+.header-container .main-layout .row .menu-column2 {
+  margin: 0px;
+}
+.header-container .main-layout .row .menu-column2 .row .preference-span {
+  margin: 0px;
+  padding: 0px 20px;
+}
+.header-container
+  .main-layout
+  .row
+  .menu-column2
+  .row
+  .preference-span
+  .preference {
+  margin: 0px;
+  width: 250px;
+  border: 1px solid #0b649d;
+}
+.header-container .main-layout .row .menu-column2 .row .notification-span {
+  padding: 0px 20px;
+}
+.header-container
+  .main-layout
+  .row
+  .menu-column2
+  .row
+  .notification-span
+  .image {
+  margin: 0px;
+  cursor: pointer;
+}
+.header-container .main-layout .row .menu-column2 .row .profile-span {
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.header-container .main-layout .row .menu-column2 .row .profile-span .image {
+  margin: 0px;
+}
+.toggle-menu {
+  display: none;
+}
+.filter-menu {
+  display: none;
+}
+.preference-span
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background-color: transparent;
+  border: 0px solid #d9d9d9;
+  color: #0b649d;
+  font-weight: 900;
+  /* text-align: center; */
+}
+.preference-span .ant-select-arrow {
+  color: #0b649d;
+  font-size: 10px;
+  font-weight: 900;
+}
+
+@media (max-width: 1600px) {
+  .main-content {
+    margin: 20px 200px;
+  }
+  .header-container .main-layout .row .menu-column1 .row .menu-span .link {
+    padding: 20px;
+  }
+  .header-container
+    .main-layout
+    .row
+    .menu-column2
+    .row
+    .preference-span
+    .preference {
+    position: absolute;
+    margin-left: -230px;
+    bottom: -3px;
+  }
+}
+@media (max-width: 1200px) {
+  .main-content {
+    margin: 20px 75px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .main-content {
+    margin: 20px 100px;
+  }
+  .bank {
+    margin-left: -130px !important;
+  }
+  .insurance {
+    margin-left: -130px !important;
+  }
+  .header-container .main-layout .row .menu-column1 .row .menu-span .link {
+    padding: 10px;
+  }
+  .header-container .main-layout .row {
+    margin-bottom: 2px;
+  }
+  .header-container
+    .main-layout
+    .row
+    .menu-column2
+    .row
+    .preference-span
+    .preference {
+    position: absolute;
+    margin-left: -230px;
+    bottom: 1px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-content {
+    margin: 20px;
+  }
+  .header-container .main-layout .row .logo-column {
+    height: 60px;
+  }
+  .header-container .main-layout .row .menu-column1 .row .menu-span .link {
+    padding: 20px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-content {
+    margin: 20px;
+  }
+  .header-container .main-layout .row .logo-column .span .image {
+    width: 250px;
+  }
+  .insurance {
+    position: absolute;
+    right: -150px;
+    top: -10px;
+  }
+  .bank {
+    margin-left: -150px !important;
+    position: absolute;
+    top: 40px;
+  }
+  .header-container .main-layout {
+    height: 120px;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin: 10px;
+  }
+  .header-container .main-layout .row .menu-column1 {
+    display: none;
+  }
+  .header-container .main-layout {
+    height: 60px;
+    overflow: hidden;
+  }
+  .toggle-menu {
+    display: block;
+    position: absolute;
+    right: 20px;
+  }
+  .filter-menu {
+    display: block;
+    position: absolute;
+    right: 65px;
+  }
+  .filter-icon {
+    font-size: 20px;
+    color: #0b649d !important;
+  }
+  .menu-icon {
+    font-size: 20px;
+    color: #0b649d !important;
+  }
+  .header-container .main-layout .row .menu-column2 .row .profile-span {
+    padding: 0px 20px;
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  .header-container .main-layout .row .logo-column .span .image {
+    width: 200px;
+  }
+}
+
+.ant-select-single.ant-select-lg
+  .ant-select-selector
+  .ant-select-selection-item,
+.ant-select-single.ant-select-lg
+  .ant-select-selector
+  .ant-select-selection-placeholder {
+  padding: 0px 26px;
+  line-height: 38px;
+  transition: all 0.3s, visibility 0s;
+  align-self: center;
+}
